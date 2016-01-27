@@ -24,6 +24,7 @@
 		F06839C21C58DC2B0024E608 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F06839B61C58DC2B0024E608 /* icon@2x.png */; };
 		F06839C31C58DC2B0024E608 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F06839B71C58DC2B0024E608 /* icon@3x.png */; };
 		F06839C61C58DCBF0024E608 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06839C51C58DCBF0024E608 /* ProfileTableViewController.swift */; };
+		F0AA9D0F1C58E151001C2102 /* VisitorBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AA9D0E1C58E151001C2102 /* VisitorBaseTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		F06839B61C58DC2B0024E608 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		F06839B71C58DC2B0024E608 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
 		F06839C51C58DCBF0024E608 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		F0AA9D0E1C58E151001C2102 /* VisitorBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorBaseTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 		F06839AD1C58DC2B0024E608 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				F0AA9D0D1C58E13F001C2102 /* VisitorBase */,
 				F06839AE1C58DC2B0024E608 /* MainViewController.swift */,
 			);
 			path = Main;
@@ -233,6 +236,14 @@
 				F06839C51C58DCBF0024E608 /* ProfileTableViewController.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		F0AA9D0D1C58E13F001C2102 /* VisitorBase */ = {
+			isa = PBXGroup;
+			children = (
+				F0AA9D0E1C58E151001C2102 /* VisitorBaseTableViewController.swift */,
+			);
+			path = VisitorBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,6 +388,7 @@
 				F06839B81C58DC2B0024E608 /* UIButton+extension.swift in Sources */,
 				F06839BB1C58DC2B0024E608 /* HomeTableViewController.swift in Sources */,
 				F06839C61C58DCBF0024E608 /* ProfileTableViewController.swift in Sources */,
+				F0AA9D0F1C58E151001C2102 /* VisitorBaseTableViewController.swift in Sources */,
 				F06839BD1C58DC2B0024E608 /* MessageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,8 +19,16 @@ class MainViewController: UITabBarController {
         super.viewWillAppear(animated)
         tabBar.bringSubviewToFront(composeBtn)
     }
+    
+    //按钮点击事件
+    @objc private func composeBtnDidClick() {
+        print("点我了")
+    }
+    
     /// 懒加载发布控件
-    private lazy var composeBtn : UIButton = UIButton(imageName: "tabbar_compose_icon_add", bgImageName: "tabbar_compose_button")
+    private lazy var composeBtn : UIButton = UIButton(
+        imageName: "tabbar_compose_icon_add",
+        bgImageName: "tabbar_compose_button")
 
 }
 
@@ -64,5 +72,6 @@ extension MainViewController{
         let count = childViewControllers.count
         let width = tabBar.bounds.width / CGFloat(count) - 1
         composeBtn.frame = CGRectInset(tabBar.bounds, 2 * width, 0)
+        composeBtn.addTarget(self, action: "composeBtnDidClick", forControlEvents: UIControlEvents.TouchUpInside)
     }
 }
