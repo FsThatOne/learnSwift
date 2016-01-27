@@ -1,15 +1,15 @@
 //
-//  learnSwiftTests.swift
-//  learnSwiftTests
+//  SwiftWBTests.swift
+//  SwiftWBTests
 //
-//  Created by qufenqi on 16/1/25.
+//  Created by qufenqi on 16/1/27.
 //  Copyright © 2016年 王正一. All rights reserved.
 //
 
 import XCTest
-@testable import learnSwift
+@testable import SwiftWB
 
-class learnSwiftTests: XCTestCase {
+class SwiftWBTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
