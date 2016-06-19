@@ -1,17 +1,18 @@
 //
-//  HomeTableViewController.swift
-//  learnSwift
+//  ProfileTableViewController.swift
+//  SwiftWB
 //
-//  Created by qufenqi on 16/1/25.
+//  Created by qufenqi on 16/1/27.
 //  Copyright © 2016年 王正一. All rights reserved.
 //
 
 import UIKit
 
-class HomeTableViewController: VisitorBaseTableViewController {
+class ProfileTableViewController: VisitorBaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

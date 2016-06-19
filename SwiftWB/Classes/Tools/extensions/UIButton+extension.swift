@@ -17,10 +17,10 @@ extension UIButton{
      */
     convenience init(imageName: String, bgImageName: String){
         self.init()
-        setImage(UIImage(named: imageName), forState: UIControlState.Normal)
-        setImage(UIImage(named: imageName + "_hightlighted"), forState: UIControlState.Highlighted)
-        setBackgroundImage(UIImage(named: bgImageName), forState: UIControlState.Normal)
-        setBackgroundImage(UIImage(named: bgImageName + "_hightlighted"), forState: UIControlState.Highlighted)
+        setImage(UIImage(named: imageName), for: UIControlState())
+        setImage(UIImage(named: imageName + "_hightlighted"), for: UIControlState.highlighted)
+        setBackgroundImage(UIImage(named: bgImageName), for: UIControlState())
+        setBackgroundImage(UIImage(named: bgImageName + "_hightlighted"), for: UIControlState.highlighted)
         sizeToFit()
     }
 }

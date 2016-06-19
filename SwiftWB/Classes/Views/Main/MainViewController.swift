@@ -15,9 +15,9 @@ class MainViewController: UITabBarController {
         addChildViewControllers()
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        tabBar.bringSubviewToFront(composeBtn)
+        tabBar.bringSubview(toFront: composeBtn)
     }
     
     //按钮点击事件
@@ -38,7 +38,7 @@ extension MainViewController{
     private func addChildViewControllers() {
         
         //设置渲染颜色为橙色
-        tabBar.tintColor = UIColor.orangeColor()
+        tabBar.tintColor = UIColor.orange()
         
         //设置所有子控制器
         addChildViewController(HomeTableViewController(), title: "首页", imageName: "tabbar_home")
@@ -55,7 +55,7 @@ extension MainViewController{
         
     }
     
-    private func addChildViewController(vc: UIViewController, title: String, imageName: String) {
+    private func addChildViewController(_ vc: UIViewController, title: String, imageName: String) {
         
         vc.tabBarItem.image = UIImage(named: imageName)
         
@@ -71,7 +71,7 @@ extension MainViewController{
         tabBar.addSubview(composeBtn)
         let count = childViewControllers.count
         let width = tabBar.bounds.width / CGFloat(count) - 1
-        composeBtn.frame = CGRectInset(tabBar.bounds, 2 * width, 0)
-        composeBtn.addTarget(self, action: "composeBtnDidClick", forControlEvents: UIControlEvents.TouchUpInside)
+        composeBtn.frame = tabBar.bounds.insetBy(dx: 2 * width, dy: 0)
+        composeBtn.addTarget(self, action: #selector(composeBtnDidClick), for: UIControlEvents.touchUpInside)
     }
 }
