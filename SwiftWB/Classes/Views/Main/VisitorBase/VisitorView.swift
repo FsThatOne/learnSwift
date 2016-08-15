@@ -32,7 +32,7 @@ class VisitorView: UIView {
         let label = UILabel()
         label.text = "哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
         label.textAlignment = NSTextAlignment.center
-        label.textColor = UIColor.darkGray()
+        label.textColor = UIColor.darkGray
         label.font = UIFont.systemFont(ofSize: 14)
         label.numberOfLines = 0
         

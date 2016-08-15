@@ -38,7 +38,7 @@ extension MainViewController{
     private func addChildViewControllers() {
         
         //设置渲染颜色为橙色
-        tabBar.tintColor = UIColor.orange()
+        tabBar.tintColor = UIColor.orange
         
         //设置所有子控制器
         addChildViewController(HomeTableViewController(), title: "首页", imageName: "tabbar_home")

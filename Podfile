@@ -5,7 +5,7 @@ use_frameworks!
 
 target 'SwiftWB' do
 
-pod 'FSLogger'
+#pod 'FSLogger'
 
 end
 

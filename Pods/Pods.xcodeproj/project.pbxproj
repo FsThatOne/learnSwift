@@ -7,102 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B09FC0F6DF7ADAF2CE4AAACB667EF00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		0D35E591F56581AA0C940A3C7E1BB043 /* Pods-SwiftWBUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 033518466723BC787FD567AB50A284CE /* Pods-SwiftWBUITests-dummy.m */; };
-		1DB5288C4202CF4BE497CBBA194D5D05 /* Pods-SwiftWB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B0C7BB3271A5EF6876BE4833A58B91 /* Pods-SwiftWB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C56D001CFADAB19F09471FF1E8A8F3B /* FSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD9705E7DFBE8F8527A1AE7277E5F3 /* FSLogger.swift */; };
-		7EFACE377B93AA7EFC99C6DEBC29939D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		83C7CEF15B05950A752630BBCE1B0FCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		1AABEE8DCAFA35396EB6C4EAB1D73830 /* Pods-SwiftWB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F083C1ADAD017B92905B4493D8984D /* Pods-SwiftWB-dummy.m */; };
 		8416FCB760F6533A8FD9ED26DE80A42C /* Pods-SwiftWBTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 080EDD217C1C5D4D33010AAE5A2DABEB /* Pods-SwiftWBTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A014C9C491F7CD41848952ACE6480DC /* Pods-SwiftWBUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 174BDE7CAE32CC6D1FCE7570446D4C5C /* Pods-SwiftWBUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E34291933D8378EA351EF308A2FB138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		AF6789FCC0465FEEF4FFE8C8F0B44FD5 /* Pods-SwiftWB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F083C1ADAD017B92905B4493D8984D /* Pods-SwiftWB-dummy.m */; };
-		D3A9CD6F99EF77A9A4033479F7B49939 /* FSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5BAA494F94D80E93393FA40585C26D /* FSLogger-dummy.m */; };
-		EBCD56FB016372AC8A0C47DC77F30F9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
-		F3D740A321BCC9C0209F70C1B280961C /* FSLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 664E0872BDA3C85ECF66EFDD4EA074D4 /* FSLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E34291933D8378EA351EF308A2FB138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A41EB8D8B6000662FF07FADF72FBC0F9 /* Pods-SwiftWB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B0C7BB3271A5EF6876BE4833A58B91 /* Pods-SwiftWB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F41521C2BC044DF338E6AF37D34197C4 /* Pods-SwiftWBTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D18939217D3BAA1C2BD3A546CD863BF /* Pods-SwiftWBTests-dummy.m */; };
-		FC8566D97B29E5446D67D9F5C5E715E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		FC8566D97B29E5446D67D9F5C5E715E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F84E3CCDE324F1C283C03D28F26FD6EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 623455B776CF8E8504935F1BBFEED352;
-			remoteInfo = FSLogger;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		033518466723BC787FD567AB50A284CE /* Pods-SwiftWBUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftWBUITests-dummy.m"; sourceTree = "<group>"; };
 		080EDD217C1C5D4D33010AAE5A2DABEB /* Pods-SwiftWBTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftWBTests-umbrella.h"; sourceTree = "<group>"; };
 		174BDE7CAE32CC6D1FCE7570446D4C5C /* Pods-SwiftWBUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftWBUITests-umbrella.h"; sourceTree = "<group>"; };
-		21A52EBC87D79F63E082A3205F2A3A26 /* Pods_SwiftWBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		325C9078442AE86CC96D8E9C026B0723 /* Pods-SwiftWBUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftWBUITests-frameworks.sh"; sourceTree = "<group>"; };
 		4337A6D7C039558B61D20A0FCC573381 /* Pods-SwiftWBTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftWBTests-resources.sh"; sourceTree = "<group>"; };
-		443A81C535A7AD63DD5F4135D2F66175 /* FSLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSLogger.xcconfig; sourceTree = "<group>"; };
+		47A67F560CF3BA4EA2A82F2EC992BD3D /* Pods_SwiftWBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48571289DB4A9ABE920C5A1E860BAA56 /* Pods-SwiftWBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWBUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4C0C09D9195FB8142F37BDF16E99FE38 /* Pods-SwiftWB-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftWB-resources.sh"; sourceTree = "<group>"; };
 		4D18939217D3BAA1C2BD3A546CD863BF /* Pods-SwiftWBTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftWBTests-dummy.m"; sourceTree = "<group>"; };
 		51BC7D390E185A27BBE6A0EB7C6E2464 /* Pods-SwiftWBUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftWBUITests.modulemap"; sourceTree = "<group>"; };
 		55B0C62C840FE61421AA462276723562 /* Pods-SwiftWBTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftWBTests.modulemap"; sourceTree = "<group>"; };
-		5DAD9705E7DFBE8F8527A1AE7277E5F3 /* FSLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSLogger.swift; path = FSLogger/Classes/FSLogger.swift; sourceTree = "<group>"; };
 		63AD4B5D83A02E0E06DEA7E8E302349A /* Pods-SwiftWB-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftWB-acknowledgements.markdown"; sourceTree = "<group>"; };
-		664E0872BDA3C85ECF66EFDD4EA074D4 /* FSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSLogger-umbrella.h"; sourceTree = "<group>"; };
 		680693820EE3D42A728D81A360DEFCF3 /* Pods-SwiftWBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWBTests.debug.xcconfig"; sourceTree = "<group>"; };
-		69B71B2720D91F03BC0207706C27D63D /* FSLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FSLogger.modulemap; sourceTree = "<group>"; };
-		6E5BAA494F94D80E93393FA40585C26D /* FSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSLogger-dummy.m"; sourceTree = "<group>"; };
 		6EE2D04238E0D6B62F688DE35D417B7B /* Pods-SwiftWBUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftWBUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		71B0C7BB3271A5EF6876BE4833A58B91 /* Pods-SwiftWB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftWB-umbrella.h"; sourceTree = "<group>"; };
 		7B5B59DA3AF7483E06BFC20447B79B62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889F7FC5D05C1859C9C7C70036A0F58B /* Pods-SwiftWB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftWB.modulemap"; sourceTree = "<group>"; };
 		92DE34918C3CE003A364C4FF421E914E /* Pods-SwiftWBTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftWBTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A62C65ABD3A536BD9D0CA6F7AE8CAF26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A77F0A01B9C22B24F3D524C41CDA8BC0 /* Pods-SwiftWBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWBUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3433022568E71B9FC64D5335A59115D /* Pods_SwiftWB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76D71407DDC1792F198E50EA76EDB11 /* Pods-SwiftWBTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftWBTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BB321540A219CEDA4069A57D52EA20DD /* Pods-SwiftWBUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftWBUITests-resources.sh"; sourceTree = "<group>"; };
 		C01C72077BB4896E9A91F947A30F820C /* Pods-SwiftWBTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftWBTests-frameworks.sh"; sourceTree = "<group>"; };
-		C67DC5552CA886D8BBB5A0ECE8D082C5 /* Pods_SwiftWBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F083C1ADAD017B92905B4493D8984D /* Pods-SwiftWB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftWB-dummy.m"; sourceTree = "<group>"; };
 		C8C0AB635F27887FEB11AFFC0995CBD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB51CE401F63670C1795C710C524CD36 /* Pods_SwiftWB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE818BED801AA34C050A5D7018B36101 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA19A2258107178D3286DBFC1E16385 /* Pods_SwiftWBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E71AC14E7FE91C6882293947A182DA24 /* Pods-SwiftWB-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftWB-frameworks.sh"; sourceTree = "<group>"; };
-		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EC190BE0ACED66ECFFABC8669B50EF1F /* Pods-SwiftWBUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftWBUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EC6D831F66CC140B1BEC461FDE4D318B /* Pods-SwiftWB-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftWB-acknowledgements.plist"; sourceTree = "<group>"; };
 		EE9E6FE5CF5753518019A4F714896905 /* Pods-SwiftWB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWB.release.xcconfig"; sourceTree = "<group>"; };
 		F26206A762B8C9953CF84A60AE01209F /* Pods-SwiftWB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWB.debug.xcconfig"; sourceTree = "<group>"; };
-		F8762097D0664FD8D9AA25496CE17150 /* FSLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9FD5673E61C6DED3829928982BBB650 /* FSLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSLogger-prefix.pch"; sourceTree = "<group>"; };
 		FA27326381ADFB360CD7B5169C3B18D3 /* Pods-SwiftWBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftWBTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2D21F5BAD0F8E047EA5224E3951EB114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B09FC0F6DF7ADAF2CE4AAACB667EF00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D5F1BE234D0EBFD13779004D3AEA0FF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FC8566D97B29E5446D67D9F5C5E715E8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6EAD9DA2A9451839921C6C6C8316741 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7EFACE377B93AA7EFC99C6DEBC29939D /* Foundation.framework in Frameworks */,
-				EBCD56FB016372AC8A0C47DC77F30F9B /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F12F4CFE91BA7FF78F409C57A51CE416 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83C7CEF15B05950A752630BBCE1B0FCC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,20 +84,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05FC83E476D2357090502E38C0E87082 /* Pods */ = {
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E7E8555066D58A229FC430C88A1B987B /* FSLogger */,
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
-			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		51DF7FD685D502EC76A220FAAA334BCA /* Pods-SwiftWB */ = {
@@ -149,6 +108,16 @@
 			);
 			name = "Pods-SwiftWB";
 			path = "Target Support Files/Pods-SwiftWB";
+			sourceTree = "<group>";
+		};
+		6A249644C25C811466AA0B1E2AC4CCE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3433022568E71B9FC64D5335A59115D /* Pods_SwiftWB.framework */,
+				CEA19A2258107178D3286DBFC1E16385 /* Pods_SwiftWBTests.framework */,
+				47A67F560CF3BA4EA2A82F2EC992BD3D /* Pods_SwiftWBUITests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7955EDA7D9FF333CDB29703064D2F685 /* Pods-SwiftWBUITests */ = {
@@ -191,36 +160,10 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				05FC83E476D2357090502E38C0E87082 /* Pods */,
-				8E7B67DA38F313F218FF77BFBE83BBC1 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6A249644C25C811466AA0B1E2AC4CCE4 /* Products */,
 				A465D262D7E0E34AC21FD03E2F0520F2 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8E7B67DA38F313F218FF77BFBE83BBC1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F8762097D0664FD8D9AA25496CE17150 /* FSLogger.framework */,
-				CB51CE401F63670C1795C710C524CD36 /* Pods_SwiftWB.framework */,
-				21A52EBC87D79F63E082A3205F2A3A26 /* Pods_SwiftWBTests.framework */,
-				C67DC5552CA886D8BBB5A0ECE8D082C5 /* Pods_SwiftWBUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9F1B341122A3A7BA4EC04D61F2581EE6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				69B71B2720D91F03BC0207706C27D63D /* FSLogger.modulemap */,
-				443A81C535A7AD63DD5F4135D2F66175 /* FSLogger.xcconfig */,
-				6E5BAA494F94D80E93393FA40585C26D /* FSLogger-dummy.m */,
-				F9FD5673E61C6DED3829928982BBB650 /* FSLogger-prefix.pch */,
-				664E0872BDA3C85ECF66EFDD4EA074D4 /* FSLogger-umbrella.h */,
-				CE818BED801AA34C050A5D7018B36101 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FSLogger";
 			sourceTree = "<group>";
 		};
 		A465D262D7E0E34AC21FD03E2F0520F2 /* Targets Support Files */ = {
@@ -233,32 +176,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E7E8555066D58A229FC430C88A1B987B /* FSLogger */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5DAD9705E7DFBE8F8527A1AE7277E5F3 /* FSLogger.swift */,
-				9F1B341122A3A7BA4EC04D61F2581EE6 /* Support Files */,
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
-			path = FSLogger;
-			sourceTree = "<group>";
-		};
-		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
-				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
-			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2B389347851AE6E4450B3D91D433A322 /* Headers */ = {
+		1E3E7D0DE77408BC4B28543C1F06E0FE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DB5288C4202CF4BE497CBBA194D5D05 /* Pods-SwiftWB-umbrella.h in Headers */,
+				A41EB8D8B6000662FF07FADF72FBC0F9 /* Pods-SwiftWB-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,14 +200,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A014C9C491F7CD41848952ACE6480DC /* Pods-SwiftWBUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B69F01AA25C3EB0BE093DE1F1CCEBC8F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3D740A321BCC9C0209F70C1B280961C /* FSLogger-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,23 +214,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		623455B776CF8E8504935F1BBFEED352 /* FSLogger */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A08F11EBCE3502E1B4B23455D00835E6 /* Build configuration list for PBXNativeTarget "FSLogger" */;
-			buildPhases = (
-				AD268367AF3E19BDA20A84053C1A420A /* Sources */,
-				E6EAD9DA2A9451839921C6C6C8316741 /* Frameworks */,
-				B69F01AA25C3EB0BE093DE1F1CCEBC8F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FSLogger;
-			productName = FSLogger;
-			productReference = F8762097D0664FD8D9AA25496CE17150 /* FSLogger.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		8D6A494E2EE950BEAACD43F5B63E40C3 /* Pods-SwiftWBTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BDFDF1F5AE8C01718E7F7BEA028EF00 /* Build configuration list for PBXNativeTarget "Pods-SwiftWBTests" */;
@@ -320,25 +228,24 @@
 			);
 			name = "Pods-SwiftWBTests";
 			productName = "Pods-SwiftWBTests";
-			productReference = 21A52EBC87D79F63E082A3205F2A3A26 /* Pods_SwiftWBTests.framework */;
+			productReference = CEA19A2258107178D3286DBFC1E16385 /* Pods_SwiftWBTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		942864B9BCD013CD0CFAE725FE2AE437 /* Pods-SwiftWB */ = {
+		A88032D7D87DB204085601A53B0CC902 /* Pods-SwiftWB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E34B9776487C7C670401739859A34CDC /* Build configuration list for PBXNativeTarget "Pods-SwiftWB" */;
+			buildConfigurationList = 3B45AF0EAA288FD686A5D6F0CD74AA6B /* Build configuration list for PBXNativeTarget "Pods-SwiftWB" */;
 			buildPhases = (
-				DB8109C97AE8DE8CDCDAA8C53496BACB /* Sources */,
-				F12F4CFE91BA7FF78F409C57A51CE416 /* Frameworks */,
-				2B389347851AE6E4450B3D91D433A322 /* Headers */,
+				68ED4D9402775554DAED0DDD04E18EA0 /* Sources */,
+				2D21F5BAD0F8E047EA5224E3951EB114 /* Frameworks */,
+				1E3E7D0DE77408BC4B28543C1F06E0FE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				781C53006956B30F78130D21F0E95E56 /* PBXTargetDependency */,
 			);
 			name = "Pods-SwiftWB";
 			productName = "Pods-SwiftWB";
-			productReference = CB51CE401F63670C1795C710C524CD36 /* Pods_SwiftWB.framework */;
+			productReference = B3433022568E71B9FC64D5335A59115D /* Pods_SwiftWB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ECE445422F8F07D692B94A6448941A2B /* Pods-SwiftWBUITests */ = {
@@ -355,7 +262,7 @@
 			);
 			name = "Pods-SwiftWBUITests";
 			productName = "Pods-SwiftWBUITests";
-			productReference = C67DC5552CA886D8BBB5A0ECE8D082C5 /* Pods_SwiftWBUITests.framework */;
+			productReference = 47A67F560CF3BA4EA2A82F2EC992BD3D /* Pods_SwiftWBUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -366,11 +273,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					623455B776CF8E8504935F1BBFEED352 = {
-						LastSwiftMigration = 0800;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -380,12 +282,11 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8E7B67DA38F313F218FF77BFBE83BBC1 /* Products */;
+			productRefGroup = 6A249644C25C811466AA0B1E2AC4CCE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				623455B776CF8E8504935F1BBFEED352 /* FSLogger */,
-				942864B9BCD013CD0CFAE725FE2AE437 /* Pods-SwiftWB */,
+				A88032D7D87DB204085601A53B0CC902 /* Pods-SwiftWB */,
 				8D6A494E2EE950BEAACD43F5B63E40C3 /* Pods-SwiftWBTests */,
 				ECE445422F8F07D692B94A6448941A2B /* Pods-SwiftWBUITests */,
 			);
@@ -401,6 +302,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		68ED4D9402775554DAED0DDD04E18EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AABEE8DCAFA35396EB6C4EAB1D73830 /* Pods-SwiftWB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76E28F413ADE0CC1CD50002CE7F5DC2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,35 +318,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD268367AF3E19BDA20A84053C1A420A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3A9CD6F99EF77A9A4033479F7B49939 /* FSLogger-dummy.m in Sources */,
-				6C56D001CFADAB19F09471FF1E8A8F3B /* FSLogger.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB8109C97AE8DE8CDCDAA8C53496BACB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF6789FCC0465FEEF4FFE8C8F0B44FD5 /* Pods-SwiftWB-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		781C53006956B30F78130D21F0E95E56 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FSLogger;
-			target = 623455B776CF8E8504935F1BBFEED352 /* FSLogger */;
-			targetProxy = F84E3CCDE324F1C283C03D28F26FD6EC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
+		159656C5763B67D81B4B40FB8368895B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26206A762B8C9953CF84A60AE01209F /* Pods-SwiftWB.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWB/Pods-SwiftWB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftWB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		15B3F042C31D9225DF5C635D09A9F70B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A77F0A01B9C22B24F3D524C41CDA8BC0 /* Pods-SwiftWBUITests.debug.xcconfig */;
@@ -465,40 +381,6 @@
 				PRODUCT_NAME = Pods_SwiftWBUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		265DD9011AAD2544F7CB4FA218FBD40A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F26206A762B8C9953CF84A60AE01209F /* Pods-SwiftWB.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWB/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWB/Pods-SwiftWB.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SwiftWB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -618,37 +500,6 @@
 			};
 			name = Debug;
 		};
-		6F66B231E0FB3F5ABEE485D782D8113F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 443A81C535A7AD63DD5F4135D2F66175 /* FSLogger.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FSLogger/FSLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FSLogger/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FSLogger/FSLogger.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FSLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		80377199938D083D1D7172C860A1358E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48571289DB4A9ABE920C5A1E860BAA56 /* Pods-SwiftWBUITests.release.xcconfig */;
@@ -674,6 +525,39 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_SwiftWBUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A92204403C7BC417422C629FCECD9FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9E6FE5CF5753518019A4F714896905 /* Pods-SwiftWB.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWB/Pods-SwiftWB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftWB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -715,69 +599,6 @@
 			};
 			name = Release;
 		};
-		B1D03932AE55EBDEE3592884A0AAC094 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 443A81C535A7AD63DD5F4135D2F66175 /* FSLogger.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FSLogger/FSLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FSLogger/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FSLogger/FSLogger.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FSLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B4D1E5A58AC271A59517FCE835FBD3C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE9E6FE5CF5753518019A4F714896905 /* Pods-SwiftWB.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftWB/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftWB/Pods-SwiftWB.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SwiftWB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -808,20 +629,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A08F11EBCE3502E1B4B23455D00835E6 /* Build configuration list for PBXNativeTarget "FSLogger" */ = {
+		3B45AF0EAA288FD686A5D6F0CD74AA6B /* Build configuration list for PBXNativeTarget "Pods-SwiftWB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F66B231E0FB3F5ABEE485D782D8113F /* Debug */,
-				B1D03932AE55EBDEE3592884A0AAC094 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E34B9776487C7C670401739859A34CDC /* Build configuration list for PBXNativeTarget "Pods-SwiftWB" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				265DD9011AAD2544F7CB4FA218FBD40A /* Debug */,
-				B4D1E5A58AC271A59517FCE835FBD3C1 /* Release */,
+				159656C5763B67D81B4B40FB8368895B /* Debug */,
+				A92204403C7BC417422C629FCECD9FDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

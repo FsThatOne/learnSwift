@@ -27,7 +27,7 @@ class VisitorBaseTableViewController: UITableViewController {
 
     func setupVisitorVc(){
         view = VisitorView()
-        view.backgroundColor = UIColor.white()
+        view.backgroundColor = UIColor.white
     }
     
     // MARK: - Table view data source
